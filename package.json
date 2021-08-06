@@ -1,0 +1,27 @@
+{
+  "name": "hapi-user-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs-allan-johnson/hapi-user-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs-allan-johnson/hapi-user-auth/issues"
+  },
+  "homepage": "https://github.com/cs-allan-johnson/hapi-user-auth#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "hapi": "^18.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt": "^0.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
